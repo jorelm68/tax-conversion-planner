@@ -57,6 +57,9 @@ export default function Home() {
           For education only, not tax or investment advice. Assumes 2026 federal tax law, indexed for inflation, and that today&apos;s rules stay in place. See{" "}
           <a href={HOW_HASH}>How it&apos;s calculated</a> for every formula with your numbers. Confirm any plan with a CPA or fiduciary advisor.
         </p>
+        <p>
+          Built by <a href="https://jorelm68.github.io/">Ethan McIntyre</a>.
+        </p>
       </footer>
     </main>
     {view === "how" && <HowItWorksView />}
